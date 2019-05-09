@@ -9,14 +9,9 @@
   border: 1px solid black;
 }
 
-/* .case {
-  background-color: silver;
-  opacity: 0.5;
-} */
-
-.scratch {
-  background-color: green
-  /* opacity: 0.5; */
+.case {
+  background-color: black;
+  opacity: 0;
 }
 
 button {
