@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  width: 750px;
+  height: 750px;
+  /* grid-template-columns: setup in base.js; */
+  /* grid-template-rows: setup in base.js; */
+  grid-gap: 1px;
+
+  border: 1px solid black;
+}
+
+/* .case {
+  background-color: silver;
+  opacity: 0.5;
+} */
+
+.scratch {
+  background-color: green
+  /* opacity: 0.5; */
+}
+
+button {
+  margin-bottom: 5px;
+}
