@@ -7,7 +7,6 @@ let cases = document.querySelectorAll('.case');
 
 // main grid
 function deleteChild() {
-    //e.firstElementChild can be used.
     let child = mainGrid.lastElementChild;
     while (child) {
         mainGrid.removeChild(child);
@@ -17,8 +16,7 @@ function deleteChild() {
 
 function coloring (){
   cases.forEach((box)=> {
-    box.addEventListener('mouseover',()=> {
-      box.style.opacity +=0.1});
+    box.addEventListener('mouseover',()=> box.style.opacity +=0.1)
   });
 };
 
