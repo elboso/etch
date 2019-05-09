@@ -16,7 +16,8 @@ function deleteChild() {
 
 function coloring (){
   cases.forEach((box)=> {
-    box.addEventListener('mouseover',()=> box.classList.toggle('scratch'))
+    box.addEventListener('mouseover',()=> {
+      box.style.opacity=(Number(box.style.opacity)+0.1)})
   });
 };
 
